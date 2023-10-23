@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-02</title>
+    <style>
+        /* box-container */
+        .container-01,
+        .container-02 {
+            display: flex;
+
+        }
+
+        /* div under containers */
+
+        .container-01>div,
+        .container-02>div {
+            border: 2px solid black;
+            margin: 2px;
+            width: 200px;
+            height: 200px;
+        
+
+        }
+
+        /* relative */
+        .a {background-color:yellow ;}
+
+        .b { background-color: aqua;}
+
+        .c {
+            position: relative;
+            left: 100px;
+            top: 10px;
+            background-color: cadetblue;
+        }
+
+        .d {
+            position: relative;
+            background-color: red;
+
+        }
+        /* absolute */
+
+        .e {
+            position: absolute;
+            left: 30px;
+            background-color: aqua;
+
+
+        }
+
+        .f {
+            position: absolute;
+            left: 60px;
+            background-color: bisque;
+
+        }
+
+        .g {
+            position: absolute;
+            left: 90px;
+            background-color: blueviolet;
+        }
+
+        .h {
+            position: absolute;
+            left: 120px;
+            background-color: brown;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Diffrence b/w Relative and Absolute positions</h1>
+    <hr>
+    <div class="container-01">
+        <p>position:relative</p>
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+    </div>
+
+    <hr>
+
+    <div class="container-02">
+        <p>position:absolute</p>
+        <div class="e">E</div>
+        <div class="f">F</div>
+        <div class="g">G</div>
+        <div class="h">H</div>
+    </div>
+</body>
+
+</html>
